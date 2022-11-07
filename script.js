@@ -52,10 +52,7 @@ $(document).ready(function () {
 
 		let inptUsr = $('#username').val();
 		let inptPwd = $('#password').val();
-
-		// console.log(usrName);
-		// console.log(pwdStrng);
-
+		
 		// do credentials from both generator and visitor match
 		if (genUsr === inptUsr && genPwd === inptPwd) {
 			// console.log('granted');
@@ -144,7 +141,5 @@ $(document).ready(function () {
 			// trigger login generater
 			genLogin();
 		});
-		
 	});
-
 });
